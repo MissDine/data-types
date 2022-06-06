@@ -43,7 +43,15 @@ p "1".to_f
 # true,false
 # symbol-A symbol is a representation of a piece of data. Symbols look like this :my_symbol. 
 # You write symbols by placing a : in front of the symbol name:
-# Hash
+# Hash-Hashes are Ruby's equivalent of a plain old JavaScript object. They are composed of key/value pairs. Each key points to a specific value, 
+my_hash = { key1: "value1", key2: "value2" }
+# we can access access data from this hash, you can use the bracket notation and pass in the symbol for the key you are trying to access:
+my_hash[:key2]
+# Unlike JavaScript, you cannot use the dot notation to access keys on hashes — only the bracket notation will work:
+# You can also create hashes with Strings for keys:
+{ "i'm a key" => "i'm a value!", "key2" => "value2" }
+# Last but not least, you can also use the Hash.new syntax (Links to an external site.), which would create an empty hash, {}
+Hash.new
 # Array-or storing ordered lists of data. You can store any type of data in an array.[]
 [2,3,4,6,7]
 # We can create a new array by array.new which creates an empty array
