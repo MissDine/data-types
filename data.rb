@@ -9,7 +9,7 @@ head.class
 "Enid"
 # Creating a new string
 String.new("Hi gal")
-# String interpolation in ruby
+# String interpolation in ruby is done using "" and not ``
 second_name = "Nyatichi"
 puts "Goodmorning Enid #{second_name}"
 # Float
