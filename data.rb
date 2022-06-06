@@ -41,6 +41,14 @@ p "1".to_i
 p "1".to_f
 #Boolean
 # true,false
-# symbol
+# symbol-A symbol is a representation of a piece of data. Symbols look like this :my_symbol. 
+# You write symbols by placing a : in front of the symbol name:
 # Hash
-# Array
+# Array-or storing ordered lists of data. You can store any type of data in an array.[]
+[2,3,4,6,7]
+# We can create a new array by array.new which creates an empty array
+puts array.new
+# nil represents the absence of a value
+# Unlike JavaScript, Ruby won't let you create a variable without assigning a value. You must explicitly assign a value of nil if you want an "empty" variable
+puts no_value = nil
+# In Ruby, only nil and false are falsy values. Everything else is truthy, even 0 and empty strings.
