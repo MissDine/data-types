@@ -48,6 +48,14 @@ p "1".to_f
 [2,3,4,6,7]
 # We can create a new array by array.new which creates an empty array
 puts array.new
+# ARRAY METHODS
+# .length-length of an array
+[1,2,3,4].length
+# .sort-sorts in ascending order
+[70,45,2,5,100,278].sort
+# .reverse
+[1,4,9,0].reverse
+# reverses values
 # nil represents the absence of a value
 # Unlike JavaScript, Ruby won't let you create a variable without assigning a value. You must explicitly assign a value of nil if you want an "empty" variable
 puts no_value = nil
