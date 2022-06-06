@@ -9,7 +9,9 @@ head.class
 "Enid"
 # Creating a new string
 String.new("Hi gal")
-# Sring interpolation in ruby
+# String interpolation in ruby
+second_name = "Nyatichi"
+puts "Goodmorning Enid #{second_name}"
 # Float
 2.7
 #Boolean
