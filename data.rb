@@ -35,6 +35,9 @@ String.ancestors
 # intergers-whole numbers
 3
 # You can convert other some data types to integers or floats with the #to_i and #to_f methods:
+# We can covert a no to the next
+1.next
+
 # Numbers to intergers
 p "1".to_i
 
@@ -68,3 +71,5 @@ puts array.new
 # Unlike JavaScript, Ruby won't let you create a variable without assigning a value. You must explicitly assign a value of nil if you want an "empty" variable
 puts no_value = nil
 # In Ruby, only nil and false are falsy values. Everything else is truthy, even 0 and empty strings.
+
+# COMMON METHODS
